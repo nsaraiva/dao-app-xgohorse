@@ -1,7 +1,13 @@
 {
   "name": "mydao-scripts",
   "type": "module",
-  "dependencies":{
-    "ethers" : "^4.0.0"
+  "scripts": {
+    "build": "yarn add @thirdweb-dev/react @thirdweb-dev/sdk ethers"
+  },
+  "dependencies": {
+    "@metamask/providers": "^9.0.0",
+    "@thirdweb-dev/react": "^2.5.1",
+    "@thirdweb-dev/sdk": "^2.3.33",
+    "ethers": "^5.6.9"
   }
 }
