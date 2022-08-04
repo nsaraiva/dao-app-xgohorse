@@ -1,4 +1,7 @@
 {
   "name": "mydao-scripts",
-  "type": "module"
+  "type": "module",
+  "dependencies":{
+    "ethers" : "^4.0.0"
+  }
 }
