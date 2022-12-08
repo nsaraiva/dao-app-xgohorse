@@ -6,7 +6,7 @@ import  sdk from "./1-initialize-sdk.js";
             // Name of the governance agreement
             name: "XGoHorseDAO - A DAO do desenvolvedor XGH",
             // Location of governance token, ERC-20 contract!
-            voting_token_address: "0x4Be6f49B03Ca2D9AA5670522bd72c219a53c34E1",
+            voting_token_address: "0xf2B80A49943D132D762f5877e48b1FdCa445521D",
             // After the proposal is created, members can start voting immediately
             voting_delay_in_blocks: 0,
             // Time that members can vote on the proposal when it is created. 1 day (6570 blocks)

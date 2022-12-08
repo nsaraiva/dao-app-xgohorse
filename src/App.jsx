@@ -13,9 +13,9 @@ const App = () => {
   console.log("Address:", address);
 
   // initialize the editionDrop contract
-  const editionDrop = useEditionDrop("0x81d8950aeA472C1d3c39D11379102542e6194491");
-  const token = useToken("0x4Be6f49B03Ca2D9AA5670522bd72c219a53c34E1");
-  const vote = useVote("0x98edcaea1e63BC79E117216c0d49cDEaB20b0328");
+  const editionDrop = useEditionDrop("0x815297aAdA9F7EA17B4cfC5E67C156d16f85129e");
+  const token = useToken("0xf2B80A49943D132D762f5877e48b1FdCa445521D");
+  const vote = useVote("0xa97B645160d1CBCE55e521fdED1A7443d0E99d83");
   // State variable to know if the user has our NFT.
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
   // isClaiming helps us know if it is in the loading state while the NFT is minted.
@@ -190,6 +190,7 @@ useEffect(() => {
       <div className="member-page">
         <h1> 🐴 Página dos membros da XGoHorseDAO</h1>
         <p>Parabéns por fazer parte desse clube de Devs!</p>
+        <p>Seu NFT de membro na <a target='_blank' href={`https://testnets.opensea.io/assets/${editionDrop.getAddress()}/0`}>OpenSea</a></p>
         <div>
           <div>
             <h2>🐴 Lista de Membros</h2>
