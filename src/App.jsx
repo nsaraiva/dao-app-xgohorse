@@ -162,12 +162,12 @@ useEffect(() => {
     }
   };
 
-  if (address && (network?.[0].data.chain.id !== ChainId.Rinkeby)) {
+  if (address && (network?.[0].data.chain.id !== ChainId.Goerli)) {
     return (
       <div className="unsupported-network">
-        <h2>Por favor, conecte-se à rede Rinkeby</h2>
+        <h2>Por favor, conecte-se à rede Goerli</h2>
         <p>
-          Essa dapp só funciona com a rede Rinkeby, por favor 
+          Essa dapp só funciona com a rede Goerli, por favor 
           troque de rede na sua carteira.
         </p>
       </div>
